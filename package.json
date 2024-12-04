@@ -1,0 +1,20 @@
+{
+  "name": "localdir2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "debug": "npx playwright test --ui",
+    "allureGenerate": "allure generate --clean",
+    "allureOpen": "allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.1",
+    "allure-playwright": "^3.0.6"
+  }
+}
